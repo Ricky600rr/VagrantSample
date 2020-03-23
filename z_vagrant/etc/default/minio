@@ -1,0 +1,7 @@
+# Local export path.
+MINIO_VOLUMES="/usr/local/share/minio/"
+
+# Use if you want to run Minio on a custom port.
+MINIO_OPTS="--config-dir /etc/minio --address :9600"
+MINIO_ACCESS_KEY=vagrant
+MINIO_SECRET_KEY=secretkey
